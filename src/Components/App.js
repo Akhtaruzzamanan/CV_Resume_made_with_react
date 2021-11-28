@@ -66,7 +66,7 @@ function App() {
                             {/* <div class="animated-sections"> */}
                             <Routes>
                                 {/* <!-- Home Subpage --> */}
-                                <Route path="/" element={<Home />} />
+                                <Route path="/home" element={<Home />} />
                                 {/* <!-- End of Home Subpage --> */}
 
                                 {/* <!-- About Me Subpage --> */}

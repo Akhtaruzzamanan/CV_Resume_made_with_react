@@ -9,7 +9,7 @@ function SidebarMenu() {
     return (
         <MainMenuUl>
             <li>
-                <MainMenuLink to="/" className="nav-anim ">
+                <MainMenuLink to="/home" className="nav-anim ">
                     <MenuIcon className="lnr lnr-home"></MenuIcon>
                     <LinkText>Home</LinkText>
                 </MainMenuLink>
