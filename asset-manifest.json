@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/CV_Resume_made_with_react/static/css/main.5b566b90.chunk.css",
+    "main.js": "/CV_Resume_made_with_react/static/js/main.b12b5925.chunk.js",
+    "main.js.map": "/CV_Resume_made_with_react/static/js/main.b12b5925.chunk.js.map",
+    "runtime-main.js": "/CV_Resume_made_with_react/static/js/runtime-main.0f3f5de2.js",
+    "runtime-main.js.map": "/CV_Resume_made_with_react/static/js/runtime-main.0f3f5de2.js.map",
+    "static/css/2.9527d8d3.chunk.css": "/CV_Resume_made_with_react/static/css/2.9527d8d3.chunk.css",
+    "static/js/2.9da49a4b.chunk.js": "/CV_Resume_made_with_react/static/js/2.9da49a4b.chunk.js",
+    "static/js/2.9da49a4b.chunk.js.map": "/CV_Resume_made_with_react/static/js/2.9da49a4b.chunk.js.map",
+    "static/js/3.0dcf83a1.chunk.js": "/CV_Resume_made_with_react/static/js/3.0dcf83a1.chunk.js",
+    "static/js/3.0dcf83a1.chunk.js.map": "/CV_Resume_made_with_react/static/js/3.0dcf83a1.chunk.js.map",
+    "index.html": "/CV_Resume_made_with_react/index.html",
+    "static/css/2.9527d8d3.chunk.css.map": "/CV_Resume_made_with_react/static/css/2.9527d8d3.chunk.css.map",
+    "static/css/main.5b566b90.chunk.css.map": "/CV_Resume_made_with_react/static/css/main.5b566b90.chunk.css.map",
+    "static/js/2.9da49a4b.chunk.js.LICENSE.txt": "/CV_Resume_made_with_react/static/js/2.9da49a4b.chunk.js.LICENSE.txt",
+    "static/media/main.css": "/CV_Resume_made_with_react/static/media/fa-solid-900d41d.a0b3c6d0.eot",
+    "static/media/main_bg.0bbbf000.png": "/CV_Resume_made_with_react/static/media/main_bg.0bbbf000.png",
+    "static/media/main_photo.ac281935.jpg": "/CV_Resume_made_with_react/static/media/main_photo.ac281935.jpg",
+    "static/media/slick-theme.css": "/CV_Resume_made_with_react/static/media/slick.c94f7671.ttf",
+    "static/media/testimonial-1.0acaf178.jpg": "/CV_Resume_made_with_react/static/media/testimonial-1.0acaf178.jpg",
+    "static/media/testimonial-2.0217b7c0.jpg": "/CV_Resume_made_with_react/static/media/testimonial-2.0217b7c0.jpg",
+    "static/media/testimonial-3.f6152e7a.jpg": "/CV_Resume_made_with_react/static/media/testimonial-3.f6152e7a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0f3f5de2.js",
+    "static/css/2.9527d8d3.chunk.css",
+    "static/js/2.9da49a4b.chunk.js",
+    "static/css/main.5b566b90.chunk.css",
+    "static/js/main.b12b5925.chunk.js"
+  ]
+}
