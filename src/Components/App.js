@@ -10,7 +10,7 @@ import './Style/perfect-scrollbar.css';
 import './Style/reset.css';
 import { css } from '@emotion/react';
 import BounceLoader from 'react-spinners/BounceLoader';
-import mainBg from './img/main_bg.png';
+// import mainBg from 'images/main_bg.png';
 import Header from './Header/Header';
 import MenuToggle from './MobileNavigation/MenuToggle';
 import ArrowsNav from './ArrowsNav/ArrowsNav';

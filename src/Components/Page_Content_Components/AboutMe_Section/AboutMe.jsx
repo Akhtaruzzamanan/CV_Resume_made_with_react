@@ -5,9 +5,10 @@ import InfoList from './Info_List/InfoList';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import testimonialImag1 from '../../img/testimonials/testimonial-1.jpg';
-import testimonialImag2 from '../../img/testimonials/testimonial-2.jpg';
-import testimonialImag3 from '../../img/testimonials/testimonial-3.jpg';
+// import testimonialImag1 from '/testimonials/testimonial-1.jpg';
+import testimonialImag1 from '../../../images/testimonials/testimonial-1.jpg';
+import testimonialImag2 from '../../../images/testimonials/testimonial-2.jpg';
+import testimonialImag3 from '../../../images/testimonials/testimonial-3.jpg';
 import Pricing from './Pricing/Pricing';
 import FunFacts from './FunFacts/FunFacts';
 function AboutMe() {

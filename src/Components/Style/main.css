@@ -1289,6 +1289,7 @@ input[type='text'],
 }
 .portfolio-filters {
     margin-bottom: 30px;
+    padding: 0px;
 }
 .portfolio-filters li {
     display: inline-block;
@@ -1300,20 +1301,21 @@ input[type='text'],
     opacity: 1;
 }
 .portfolio-filters li a {
-    color: #aaa;
+    color: #aaa !important;
     cursor: pointer;
+    padding: 0px;
 }
 .portfolio-grid {
     margin-left: -7px;
     margin-right: -7px;
 }
-.portfolio-grid figure {
+/* .portfolio-grid figure {
     width: 33.33333%;
     float: left;
     padding: 7px;
     position: relative;
     overflow: hidden;
-}
+} */
 .portfolio-grid.one-column figure {
     width: 100%;
 }
@@ -1329,12 +1331,12 @@ input[type='text'],
 .portfolio-grid.five-columns figure {
     width: 20%;
 }
-.portfolio-grid img {
+/* .portfolio-grid img {
     position: relative;
     display: block;
     width: 100%;
-}
-.portfolio-grid figure a,
+} */
+/* .portfolio-grid figure a,
 .portfolio-rid figure img {
     display: block;
     position: relative;
@@ -1356,12 +1358,12 @@ input[type='text'],
     right: 0;
     left: 0;
     z-index: 3;
-}
-.portfolio-item-img {
+} */
+/* .portfolio-item-img {
     position: relative;
     overflow: hidden;
-}
-.portfolio-grid figure .portfolio-item-img:after {
+} */
+/* .portfolio-grid figure .portfolio-item-img:after {
     content: '';
     position: absolute;
     background-color: rgba(0, 0, 0, 0.05);
@@ -1378,7 +1380,7 @@ input[type='text'],
 }
 .portfolio-grid figure:hover .portfolio-item-img:after {
     opacity: 1;
-}
+} */
 .portfolio-item-desc {
     margin-top: 12px;
 }
@@ -1388,7 +1390,7 @@ input[type='text'],
 .portfolio-item-desc small {
     color: #888;
 }
-.portfolio-grid figure i {
+/* .portfolio-grid figure i {
     display: inline-block;
     position: absolute;
     top: 15px;
@@ -1406,14 +1408,15 @@ input[type='text'],
     -o-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-}
-.portfolio-grid figure .name {
+} */
+/* .portfolio-grid figure .name {
     display: block;
     padding: 15px 0;
-    font-size: 16px;
+    font-size: 16px !important;
     position: relative;
-}
-.portfolio-grid figure .category {
+    margin: 0px;
+} */
+/* .portfolio-grid figure .category {
     display: inline-block;
     padding: 2px 7px;
     background-color: #222;
@@ -1434,7 +1437,7 @@ input[type='text'],
 .portfolio-grid figure:hover .name,
 .portfolio-grid figure:hover .category {
     opacity: 1;
-}
+} */
 .blog-masonry {
     margin: 0 -1em 1.8em;
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
-import mainPhoto from '../img/main_photo.jpg';
+import mainPhoto from '../../images/main_photo.jpg';
 import {
     HeaderPhoto,
     HeaderPhotoImage,

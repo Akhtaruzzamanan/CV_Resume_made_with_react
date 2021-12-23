@@ -3,8 +3,8 @@ import PageTitle from '../Page_Title/PageTitle';
 import Certificate from './Certificate/Certificate';
 import Skill from './Skills/Skill';
 import TimelineItem from './TimelineItems/TimelineItem';
-import image1 from '../../img/clients/client-1.png';
-import image2 from '../../img/clients/client-5.png';
+import image2 from '../../../images/clients/client-5.png';
+import image1 from '../../../images/clients/client-1.png';
 
 function Resume() {
     return (
