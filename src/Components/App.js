@@ -20,6 +20,7 @@ import Resume from './Page_Content_Components/Resume_Section/Resume';
 import Portfolio from './Page_Content_Components/Portfolio_Section/Portfolio';
 import Blog from './Page_Content_Components/Blog_Section/Blog';
 import Contact from './Page_Content_Components/Contact_Section/Contact';
+import BlogPost1 from './Page_Content_Components/Blog_Section/BlogPost1';
 
 const override = css`
     margin: auto;
@@ -86,6 +87,10 @@ function App() {
 
                                 {/* <!-- Blog Subpage --> */}
                                 <Route path="/blog" element={<Blog />} />
+                                <Route
+                                    path="/blog/blog-post-1"
+                                    element={<BlogPost1 />}
+                                />
                                 {/* <!-- End of Blog Subpage --> */}
 
                                 {/* <!-- Contact Subpage --> */}

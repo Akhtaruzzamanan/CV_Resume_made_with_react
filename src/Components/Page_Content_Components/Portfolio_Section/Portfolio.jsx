@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import PageTitle from '../Page_Title/PageTitle';
 import Menu from './PortfolioData';
+import { PortfolioFilter, List, PortfolioLink } from './Portfolio_Style';
 // Images for portfolio start
 import TabMenu from './TabMenu';
 // Images for portfolio end
@@ -23,60 +24,55 @@ function Portfolio() {
                 <div class="row">
                     <div class="col-xs-12 col-sm-12">
                         {/* <!-- Portfolio Content --> */}
-                        <div class="portfolio-content">
-                            <ul class="portfolio-filters">
-                                <li class="">
-                                    <a
-                                        class="
-                                                            filter
+                        <div>
+                            <PortfolioFilter>
+                                <List>
+                                    <PortfolioLink
+                                        className="
                                                             btn btn-sm btn-link
                                                         "
                                         data-group="category_all"
                                         onClick={() => setMenuItems(Menu)}
                                     >
                                         All
-                                    </a>
-                                </li>
-                                <li>
-                                    <a
-                                        class="
-                                                            filter
+                                    </PortfolioLink>
+                                </List>
+                                <List>
+                                    <PortfolioLink
+                                        className="
                                                             btn btn-sm btn-link
                                                         "
                                         data-group="category_detailed"
                                         onClick={() => filterItem('Detailed')}
                                     >
                                         Detailed
-                                    </a>
-                                </li>
-                                <li>
-                                    <a
-                                        class="
-                                                            filter
+                                    </PortfolioLink>
+                                </List>
+                                <List>
+                                    <PortfolioLink
+                                        className="
                                                             btn btn-sm btn-link
                                                         "
                                         data-group="category_mockups"
                                         onClick={() => filterItem('Mockups')}
                                     >
                                         Mockups
-                                    </a>
-                                </li>
-                                <li>
-                                    <a
-                                        class="
-                                                            filter
+                                    </PortfolioLink>
+                                </List>
+                                <List>
+                                    <PortfolioLink
+                                        className="
                                                             btn btn-sm btn-link
                                                         "
                                         data-group="category_soundcloud"
                                         onClick={() => filterItem('SoundCloud')}
                                     >
                                         SoundCloud
-                                    </a>
-                                </li>
-                                <li>
-                                    <a
-                                        class="
-                                                            filter
+                                    </PortfolioLink>
+                                </List>
+                                <List>
+                                    <PortfolioLink
+                                        className="
                                                             btn btn-sm btn-link
                                                         "
                                         data-group="category_vimeo-videos"
@@ -85,28 +81,25 @@ function Portfolio() {
                                         }
                                     >
                                         Vimeo Videos
-                                    </a>
-                                </li>
-                                <li>
-                                    <a
-                                        class="
-                                                            filter
-                                                            btn btn-sm btn-link
-                                                        "
+                                    </PortfolioLink>
+                                </List>
+                                <List>
+                                    <PortfolioLink
+                                        className="btn btn-sm btn-link"
                                         data-group="category_youtube-videos"
                                         onClick={() =>
                                             filterItem('YouTube Videos')
                                         }
                                     >
                                         YouTube Videos
-                                    </a>
-                                </li>
-                            </ul>
+                                    </PortfolioLink>
+                                </List>
+                            </PortfolioFilter>
 
                             {/* <!-- Portfolio Grid --> */}
                             <div>
                                 {menuItems.map((element) => {
-                                    const { id, image, name, category, icon } =
+                                    const { image, name, category, icon } =
                                         element;
 
                                     return (
